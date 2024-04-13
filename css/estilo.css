@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    color: #d1d5de;
 }
 
 a{
@@ -53,6 +52,8 @@ nav{
     padding: 10px 20px;
     border-radius: 99px;
     transition: 150ms;
+    color: #d1d5de;
+
 }
 
 .navegacao li a:hover{
@@ -108,4 +109,40 @@ nav{
     color: #b8bdc6;
     font-size: 14px;
     line-height: 1.5;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.tabela-horarios{
+    overflow: scroll;
+}
+
+table thead{
+    font-size: 22px;
+}
+
+table th{
+    border: 2px solid #1d1d1d;
+}
+
+table td{
+    border: 2px solid #1d1d1d;
+}
+
+.seg-secao{
+    background-color: #c3c6cb;
+}
+
+div.tabela-horarios h3{
+    font-size: 20px;
+    height: 30px;
+    color: #1d1d1d;
+    text-align: center;
+    padding: 20px 0px 0px; 
 }
